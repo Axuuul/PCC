@@ -12,17 +12,17 @@
         <h1 class="textoLogin">Login</h1>
 
         <div class="email">
-            <label for="E-mail" class="textoEmail">Email:</label> <br>
-            <input type="text" id="email" class="campoEmail" placeholder="Digite seu E-mail"/>
+            <label for="E-mail" class="textoDigitar">Email:</label> <br>
+            <input type="text" id="email" class="campoDigitar" placeholder="Digite seu E-mail"/>
         </div>
 
         <div class="senha">
-            <label for="E-mail" class="textoSenha">Senha:</label> <br>
-            <input type="text" id="senha" class="campoSenha" placeholder="Digite sua Senha"/>
+            <label for="senha" class="textoDigitar">Senha:</label> <br>
+            <input type="text" id="senha" class="campoDigitar" placeholder="Digite sua Senha"/>
         </div>
 
         <div>
-            <button type="button" class="botaoRegistrar">Registrar-se</button>
+            <button type="button" class="botaoRegistrar" onclick="location.href = 'telaregistro.php';">Registrar-se</button>
             <button type="button" class="botaoEntrar">Entrar</button>
         </div>
     </div>
