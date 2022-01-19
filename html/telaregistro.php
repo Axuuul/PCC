@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Adoblog - Registre-se</title>
-    <link rel="stylesheet" type="text/css" href="estilos/telaregistro.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/telaregistro.css">
 </head>
 
 <body>

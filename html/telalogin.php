@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Adoblog - Login</title>
-    <link rel="stylesheet" type="text/css" href="estilos/telalogin.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/telalogin.css">
 </head>
 
 <body>
     <div class="borda">
         <h1 class="textoLogin">Login</h1>
-
         <div class="email">
             <label for="E-mail" class="textoDigitar">Email:</label> <br>
             <input type="text" id="email" class="campoDigitar" placeholder="Digite seu E-mail"/>
