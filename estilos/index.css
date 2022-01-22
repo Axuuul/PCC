@@ -1,19 +1,19 @@
 .headerSite{
-    margin: -10px;
+    margin: -1%;
     width: 90.97%;
-    height: 50px;
-    padding: 50px 5%;
-    background-color: lawngreen;
+    height: 50%;
+    padding: 4% 5%;
+    background-color: #9DEC6B;
     border-top: none;
     border-bottom: 3px solid blue;
 }
 .logo{
-    width: 150px; 
-    height: 120px; 
+    width: 10%; 
+    height: 15%; 
     float: left;
-    position: relative;
-    top: -35px;
-    left: -70px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
 }
 
 a{
@@ -26,32 +26,32 @@ a{
 }
 a:hover{
     color: red;
-    font-size: 33px;
+    font-size: 120%;
 }
 .inicio{
-    position: relative;
-    top: -12px;
-    left: 65%;
+    position: absolute;
+    top: 7%;
+    left: 70%;
 }
 .adote{
-    position: relative;
-    top: -12px;
-    left: 66%;
+    position: absolute;
+    top: 7%;
+    left: 75%;
 }
 .doe{
-    position: relative;
-    top: -12px;
-    left: 67%;
+    position: absolute;
+    top: 7%;
+    left: 80.5%;
 }
 .ongs{
-    position: relative;
-    top: -12px;
-    left: 68%;
+    position: absolute;
+    top: 7%;
+    left: 84.5%;
 }
 .login{
-    position: relative;
-    top: -12px;
-    left: 69%;
+    position: absolute;
+    top: 7%;
+    left: 89.5%;
 }
 
 body{
