@@ -18,4 +18,31 @@
             <a href="telalogin.php" class="login"> Login </a>
         </h1>
     </header>
+
+    <div class="containerPrincipal">
+        <div class="containerUltimosAnimais">
+
+        </div>
+
+        <div class="containerAdote">
+            <button type="button" class="botaoAdote">Adote um Animal</button>
+        </div>
+
+        <div class="containerMSG">
+            <h1 class="tituloContainer">Mensagem do ADM/Desenvolvedor</h1>
+            <p class="textoContainer">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Blanditiis, voluptates unde est nostrum reiciendis laborum 
+            laudantium rem, adipisci autem ad omnis consectetur aperiam 
+            expedita illum odio id saepe nihil magni.</p>
+        </div>
+
+        <div class="containerSobre">
+            <h1 class="tituloContainer">Sobre os Desenvolvedores</h1>
+            <p class="textoContainer">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Blanditiis, voluptates unde est nostrum reiciendis laborum 
+            laudantium rem, adipisci autem ad omnis consectetur aperiam 
+            expedita illum odio id saepe nihil magni.</p>
+        </div>
+
+    </div>
 </body>
