@@ -8,6 +8,10 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../script/showmodal.js"></script>
 </head> 
 
@@ -51,128 +55,309 @@
            <table>
            <tr>
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 1</a>
+            <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Animal 1
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">NOME DO ANIMAL</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        
+                            <img src="../images/cachorro.png"  class="imgAnimal">
+                        <div class="conteudo-modal">
+                            <h4>Informações do Animal:</h4>
+                            <h5>Nome:</h5>
+                            <h5>Raça:</h5>
+                            <h5>Idade:</h5>
+                            <h5>Coloração:</h5>
+                            <h5>Descrição:</h5>
+                            <br>
+                            <h4>Informações de Contato e Endereço:</h4>
+                            <h5>Email:</h5>
+                            <h5>Telefone:</h5>
+                            <h5>Estado:</h5>
+                            <h5>Cidade:</h5>
+                        </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window ">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
             </td>
+
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 2</a>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
             </td>
+
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 3</a>
+            <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
             </td>
            </tr>
 
            <tr>
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 4</a>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
-            </td>
+
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 5</a>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
             </td>
+
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 6</a>
+            <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
             </td>
            </tr>
 
            <tr>
 
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 7</a>
+           <!-- Button to Open the Modal -->
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
+
+            <td>
+            <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
+                </div>
+                </div>
+
             </td>
             <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 8</a>
+            <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Nome do Animal</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h5>Nome:</h5>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
                 </div>
-            </div>
-            </td>
-            <td>
-            <div class="container">
-                <div class="interior">
-                    <a class="btn" href="#open-modal">Animal 9</a>
-                </div>
-            </div>
-            <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Fechar</a>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni ex repellat suscipit aut nemo sunt placeat iusto, ullam fugiat quos obcaecati dolorum unde autem a, asperiores neque magnam fugit.
-                </div>
-            </div>
             </td>
 
            </tr>

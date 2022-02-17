@@ -392,72 +392,35 @@ td{
     text-align: center;
 }
 
-.modal-window {
+.modal-dialog{
+   position: absolute;
+   top: 20%;
+   right: 100px;
+   bottom: 0;
+   left: 0;
+   z-index: 10040;
+   overflow: auto;
+   overflow-y: auto;
+   min-width: 60%;
+}
+.conteudo-modal{
+    top: 0%;
+    width: 45%;
+    left: 55%;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.25);
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-    visibility: hidden;
-    pointer-events: none;
-    transition: all 0.3s;
-      width: 400px;
-      position: absolute;
-      top: 40%;
-      left: 100%;
-      transform: translate(-50%, -50%);
-      padding: 2em;
-      background: white;
-      border: 3px solid black;
-    }
-
-.modal-window:target{
-    
-    visibility: visible;
-      pointer-events: auto;
+    border: black 2px solid;
+    text-align: justify;
 }
 
-  
-  .modal-close {
-    color: #aaa;
-    line-height: 50px;
-    font-size: 80%;
+h5{
+    border-bottom: 1px solid black;
+}
+
+.divimgAnimal{
     position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
-    width: 70px;
-    text-decoration: none;
-  }
-
-  .modal-close:hover{
-    color: black; 
-  }
-  
-  /* Demo Styles */
-  
-  
-  .container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .modal-window {
-      border-radius: 1rem;
-  }
-  
-  .modal-window div:not(:last-of-type) {
-    margin-bottom: 15px;
-  }
-  
-
-  
-  .btn {
-    background-color: white;
-    padding: 1em 1.5em;
-    border-radius: 1rem;
-    text-decoration: none;
-      padding-right: 0.3em;
-  }
+}
+.imgAnimal{
+    float: left;
+    width: 600px;
+    height: 385px;
+}
