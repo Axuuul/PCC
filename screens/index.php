@@ -369,7 +369,7 @@
         </div>
 
         <div class="containerMSG">
-           <h1 class="tituloContainer">Sobre o Blog</h1>
+           <h1 class="tituloContainer"> <b> Sobre o Blog </b> </h1>
             <div class="textoContainer">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -381,21 +381,19 @@
         </div>
 
         <div class="containerSobre">
-            <h1 class="tituloContainer">Conheça a ONG Só Vira Latas!</h1>
+            <?php require_once '../script/ongselectorname.php' ?>
+
+            <h1 class="tituloContainer"> <b> Conheça a ONG <?php echo $row['ong_nome']; ?> </b> </h1>
             <div class="containerTexto">
                  <div id="scroll-text">
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                   eiusmod
+
                  </div>
             </div>
         </div>
+
     </div>
-
-
     <div class="fadeIn footer">
         <footer class="container-fluid py-3" style="background: #A5EB78; height: 125%;">
             <div class="row">
