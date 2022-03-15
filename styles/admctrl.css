@@ -3,23 +3,11 @@
 a{
     text-decoration: none;
     color: black;
+    font-size: 30px;
     float: left;
-    font-size: 28px;
     font-weight: bolder;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.navbar.navbar-expand-lg.navbar-light{
-    -webkit-animation-name: fadeInDown;
-    animation-name: fadeInDown;
-    -webkit-animation-duration: 0.8s;
-    animation-duration: 0.8s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    position: relative;
-    height: 15%;
-}
-
 
 
 
@@ -41,7 +29,7 @@ a{
     width: 140px;
     height: 120px;
 
-    transition: .2s;
+    transition: transform .2s;
     margin: 0 auto;
 }
 
@@ -51,11 +39,12 @@ a{
 
 .nav-link.active{
     transition: transform .2s;
+    margin: 0 auto;
 }
 
 .nav-link.active:hover{
-    text-shadow:3px 3px 3px #303030;
-    transform: scale(1.1);
+    text-shadow:3px 2px 2px #303030;
+    transform: scale(1.2);
     /*box-shadow: 0 0 11px rgba(33,33,33,.2);
     border-radius:10px;
     border: 1px solid rgba(33,33,33,.2);*/
@@ -130,29 +119,12 @@ h2{
     background: #fff;
     padding: 30px;
     width: 90%;
-    max-width: 600px;
+    max-width: 450px;
     position: relative;
     padding: 0px;
     -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
-}
-
-#formContentContato{
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
-    background: #fff;
-    padding: 30px;
-    width: 90%;
-    max-width: 600px;
-    position: relative;
-    padding: 0px;
-    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    text-align: center;
-}
-.labelNewPub{
-    padding-top: 20px;
 }
   
 #formFooter{
@@ -337,66 +309,6 @@ input[type=text]:placeholder{
     border-color: white;
     border-width: 10px;
 }
-
-.fadeIn.fifth{
-    -webkit-animation-delay: 1.2s;
-    -moz-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.sixth{
-    -webkit-animation-delay: 1.4s;
-    -moz-animation-delay: 1.4s;
-    animation-delay: 1.4s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.seventh{
-    -webkit-animation-delay: 1,6s;
-    -moz-animation-delay: 1.6s;
-    animation-delay: 1.6s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.eight{
-    -webkit-animation-delay: 1.8s;
-    -moz-animation-delay: 1.8s;
-    animation-delay: 1.8s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.nineth{
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    animation-delay: 2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.ten{
-    -webkit-animation-delay: 2.2s;
-    -moz-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
  
 
 
@@ -431,4 +343,4 @@ input[type=text]:placeholder{
 #icon {
     width:60%;
 }
-
+  

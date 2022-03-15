@@ -1,4 +1,5 @@
 <?php
+    //função de seleção aleatória para ong recomendada na index
     require_once 'connection.php';
 
     $result = $mysqli->query("SELECT MAX(ong_id) FROM tb_ong") or die($mysqli->error());
@@ -19,11 +20,19 @@
         $nmrrand = rand(1, $id);
     }
 
-    $result = $mysqli->query("SELECT ong_nome FROM tb_ong WHERE ong_id=$nmrrand") or die($mysqli->error());
+    $result = $mysqli->query("SELECT * FROM tb_ong WHERE ong_id=$nmrrand") or die($mysqli->error());
 
     $row = $result->fetch_array();
     $nome = $row['ong_nome'];
-    //echo $nome;
+    $imagem = $row['ong_imagem'];
 
+    if($imagem == "" || NULL){
+        //$a = "aaaaaaaaaaaa";
+        $imagempadrao = "imgpadrao.png";
+    }else{
+        $imagempadrao = $imagem;
+    }
+    
+    //echo $nome;
     //print_r($result->fetch_assoc());
 ?>

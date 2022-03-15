@@ -21,8 +21,6 @@ a{
 }
 
 
-
-
 /* BASIC */
   
 body{
@@ -41,7 +39,7 @@ a{
     width: 140px;
     height: 120px;
 
-    transition: .2s;
+    transition: transform .2s;
     margin: 0 auto;
 }
 
@@ -51,11 +49,12 @@ a{
 
 .nav-link.active{
     transition: transform .2s;
+    margin: 0 auto;
 }
 
 .nav-link.active:hover{
-    text-shadow:3px 3px 3px #303030;
-    transform: scale(1.1);
+    text-shadow:3px 2px 2px #303030;
+    transform: scale(1.2);
     /*box-shadow: 0 0 11px rgba(33,33,33,.2);
     border-radius:10px;
     border: 1px solid rgba(33,33,33,.2);*/
@@ -71,8 +70,6 @@ h2{
     color: #cccccc;
 }
 
-
-
 /* FOOTER */
   
 .fadeIn.footer{
@@ -85,24 +82,6 @@ h2{
 
     width: 100%;
 }  
-
-.col-6.col-md.ft1{
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    animation-delay: 1s;
-}
-
-.col-6.col-md.ft2{
-    -webkit-animation-delay: 1.2s;
-    -moz-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-}
-
-.col-6.col-md.ft3{
-    -webkit-animation-delay: 1.4s;
-    -moz-animation-delay: 1.4s;
-    animation-delay: 1.4s;
-}
 
 
 
@@ -130,29 +109,12 @@ h2{
     background: #fff;
     padding: 30px;
     width: 90%;
-    max-width: 600px;
+    max-width: 450px;
     position: relative;
     padding: 0px;
     -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
-}
-
-#formContentContato{
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
-    background: #fff;
-    padding: 30px;
-    width: 90%;
-    max-width: 600px;
-    position: relative;
-    padding: 0px;
-    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    text-align: center;
-}
-.labelNewPub{
-    padding-top: 20px;
 }
   
 #formFooter{
@@ -176,10 +138,10 @@ h2.active{
     color: #0d0d0d;
     border-bottom: 2px solid #5fbae9;
 }
-    
-
-
-/* FORM TYPOGRAPHY*/
+  
+  
+  
+  /* FORM TYPOGRAPHY*/
   
 input[type=button], input[type=submit], input[type=reset]{
     background-color: #A5EB78;
@@ -285,8 +247,6 @@ input[type=text]:placeholder{
     }
 }
   
-
-
 /* Simple CSS3 Fade-in Animation */
     @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
     @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -311,9 +271,6 @@ input[type=text]:placeholder{
     -webkit-animation-delay: 0.4s;
     -moz-animation-delay: 0.4s;
     animation-delay: 0.4s;
-
-    width: 460px;
-    height: 300px;
 }
   
 .fadeIn.second{
@@ -327,79 +284,9 @@ input[type=text]:placeholder{
     -moz-animation-delay: 0.8s;
     animation-delay: 0.8s;
 }
-  
-.fadeIn.fourth{
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    animation-delay: 1s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
 
-.fadeIn.fifth{
-    -webkit-animation-delay: 1.2s;
-    -moz-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
 
-.fadeIn.sixth{
-    -webkit-animation-delay: 1.4s;
-    -moz-animation-delay: 1.4s;
-    animation-delay: 1.4s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.seventh{
-    -webkit-animation-delay: 1,6s;
-    -moz-animation-delay: 1.6s;
-    animation-delay: 1.6s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.eight{
-    -webkit-animation-delay: 1.8s;
-    -moz-animation-delay: 1.8s;
-    animation-delay: 1.8s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.nineth{
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    animation-delay: 2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
-
-.fadeIn.ten{
-    -webkit-animation-delay: 2.2s;
-    -moz-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
-}
  
-
-
 /* Simple CSS3 Fade-in Animation */
 .underlineHover:after {
     display: block;
@@ -420,8 +307,6 @@ input[type=text]:placeholder{
     width: 100%;
 }
   
-
-
 /* OTHERS */
   
 *:focus {
@@ -431,4 +316,4 @@ input[type=text]:placeholder{
 #icon {
     width:60%;
 }
-
+  

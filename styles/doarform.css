@@ -22,7 +22,6 @@ a{
 
 
 
-
 /* BASIC */
   
 body{
@@ -130,29 +129,12 @@ h2{
     background: #fff;
     padding: 30px;
     width: 90%;
-    max-width: 600px;
+    max-width: 450px;
     position: relative;
     padding: 0px;
     -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
-}
-
-#formContentContato{
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
-    background: #fff;
-    padding: 30px;
-    width: 90%;
-    max-width: 600px;
-    position: relative;
-    padding: 0px;
-    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    text-align: center;
-}
-.labelNewPub{
-    padding-top: 20px;
 }
   
 #formFooter{
@@ -245,8 +227,6 @@ input[type=text]:placeholder{
     color: #cccccc;
 }
   
-  
-  
 /* ANIMATIONS */
   
 /* Simple CSS3 Fade-in-down Animation */
@@ -332,67 +312,49 @@ input[type=text]:placeholder{
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
     animation-delay: 1s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
 }
 
 .fadeIn.fifth{
     -webkit-animation-delay: 1.2s;
     -moz-animation-delay: 1.2s;
     animation-delay: 1.2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
 }
 
 .fadeIn.sixth{
     -webkit-animation-delay: 1.4s;
     -moz-animation-delay: 1.4s;
     animation-delay: 1.4s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
 }
 
 .fadeIn.seventh{
-    -webkit-animation-delay: 1,6s;
+    -webkit-animation-delay: 1.6s;
     -moz-animation-delay: 1.6s;
     animation-delay: 1.6s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
 }
 
-.fadeIn.eight{
+.fadeIn.eigth{
     -webkit-animation-delay: 1.8s;
     -moz-animation-delay: 1.8s;
     animation-delay: 1.8s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
 }
 
 .fadeIn.nineth{
     -webkit-animation-delay: 2s;
     -moz-animation-delay: 2s;
     animation-delay: 2s;
-    
-    border-style: hidden;
-    border-color: white;
-    border-width: 10px;
 }
 
 .fadeIn.ten{
-    -webkit-animation-delay: 2.2s;
-    -moz-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-    
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.fadeIn.eleven{
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+
     border-style: hidden;
     border-color: white;
     border-width: 10px;
@@ -431,4 +393,3 @@ input[type=text]:placeholder{
 #icon {
     width:60%;
 }
-

@@ -37,6 +37,7 @@ a{
     display:inline-block;
     text-decoration: none;
     font-weight: 400;
+
 }
 
 .thumbnail{
@@ -231,223 +232,45 @@ h2{
 .containerPrincipal{
     position: relative;
     width: 100%;
-    height: 83%;
     background-color: rgb(255, 254, 185);
-}
-
-.containerUltimosAnimais{
-    position: relative;
-    float: left;
-    margin: 1%;
-    height: 96%;
-    width: 50%;
-    border: rgb(22, 89, 177) solid 3px;
-    border-radius: 30px;
-}
-.containerAdote{
-    
-    border-radius: 20px;
-    position: relative;
-    height: 30%;
-    width: 45%;
-    margin-top: 1%;
-    float: left;
-    border: rgb(22, 89, 177) solid 3.5px;
-}
-.containerMSG{
-    
-    border-radius: 20px;
-    position: relative;
-    height: 25%;
-    width: 45%;
-    margin-top: 1%;
-    float: left;
-    border: rgb(22, 89, 177) solid 3px;
-    overflow: hidden;
-}
-.containerSobre{
-    border-radius: 30px;
-    height: 68%;
-    width: 45%;
-    margin-top: 1%;
-    float: left;
-    border: rgb(22, 89, 177) solid 3px;
-}
-
-.nomeONG{
-    color: blue;
-}
-.nomeONG:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-.tituloContainer{
-    position: relative;
-    text-align: center;
-    text-shadow: 2px 5px 50px;
-    font-family: sans-serif;
-    font-size: 200%;
-    margin: 0.5%;
-}
-.tituloContainerONG{
-    text-align: justify;
-    font-family: sans-serif;
-    font-size: 150%;
-    float: right;
-    position: relative;
-    right: 35%;
-    top: 10%;
-}
-
-.textoContainer{
-
-    padding: 1%;
-    margin-left: 1%;
-    width: 98%;
-    text-align: justify;
-    font-family: Verdana;
-    font-size: 125%;
-    position: relative;
-    border: rgb(22, 89, 177) solid 3px;;
-    overflow: hidden;
-    border-left: none;
-    border-right: none;
-}
-
-.botaoAdote{
-   
-    position: relative;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    font-weight: bold;
-    font-size: 250%;
-    background-image: url(../images/cachorro1.jpg);
-    background-size: 100% 100%;
-    border-radius: 6%;
-    transition: 0.5s;
-    box-shadow: 3px 2px #e9a488;
-    text-shadow: 0px 20px 65px;
-    color: rgb(29, 202, 255);
-    background-repeat: no-repeat;
-}
-.botaoAdote:hover{
-    height: 92%;
-    color: rgb(22, 89, 177);
-    font-weight: bolder;
-    font-size: 300%;
-    background-image: url(../images/cachorro2.jpg);
-    background-size: 100% 100%;
-    -webkit-transition: 1s;
-    box-shadow: 3px 2px rgb(30, 128, 255);
-    transition: 0,5s;
-    
-}
-
-#scroll-text {
-  height: 100%;
-  text-align: justify;
-  margin: 1%;
-  /* animation properties */
-  -moz-transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  
-  -moz-animation: my-animation 5s linear infinite;
-  -webkit-animation: my-animation 5s linear infinite;
-  animation: my-animation 10s linear infinite;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateY(100%); }
-  to { -moz-transform: translateY(-100%); }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
-  to {
-    -moz-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-}
-
-table{
-    width: 100%;
     height: 100%;
 }
 
+.containerPaginas{
+    position: relative;
+    width: 50%;
+    top: 1%;
+    bottom: 1%;
+    left: 25%;
+    border-radius: 20px;
+}
 td{
-    border-collapse:collapse;
-    border-bottom: 5px solid black;
-    height: 33%;
-    width: 33%; 
-    float: left;
-    text-align: center;
+    border: none;
+}
+.tr2{
+    border: none;
+    transition: 0.1s;
+    grid-column: 1/4;
+    font-size: 135%;
+}
+.table{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.5s;
+
 }
 
-.modal-dialog{
-   position: absolute;
-   top: 20%;
-   right: 100%;
-   bottom: 0;
-   left: 0;
-   z-index: 10040;
-   overflow: auto;
-   overflow-y: auto;
-   min-width: 55%;
-}
-.conteudo-modal{
-    float: left;
-    bottom: 5%;
-    width: 45%;
-    left: 6.5%;
-    position: relative;
-    text-align: justify;
-    height: 90%;
-}
-
-h4{
-    border-bottom: 2px solid black;
-}
-.imgAnimal{
-    float: left;
-    left: 2.5%;
-    position: relative;
-    width: 400px;
-    height: 400px;
-}
-.botaoAnimal{
-    position: relative;
-    float: left;
-    width: 101%;
-    height: 300%;
+.table:hover{
+    background-color: lightblue;
+    transition: 0.5s;
     font-weight: bold;
-    
-    background-size: 100% 100%;
-    border-radius: 6%;
-    transition: 0.75s;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
-    font-size: 200%;
-    overflow: hidden;
+    transform: scale(1.1);
+
 }
-.botaoAnimal:hover{
-    filter: brightness(65%);    
-    transition: 0.75s;
-    background-size: 105% 105%;
-    text-indent: 0;
-    color: black;
+
+.img{
+    width: 100%;
+    border-radius: 50%; 
+    height: 150px;  
+    margin-top: 1; 
+    margin-left: 1%;
 }
